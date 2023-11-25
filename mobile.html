@@ -70,19 +70,28 @@
 <div class="preloader" id="preloader">
   <div class="background"></div>
   
-  <p class="loading-text"><img src="./univerxeloader.gif"width="180" height="105" >
+  <p class="loading-text"><h6><img src="./univerxeloader.gif"width="180" height="105" ><h2 class="title"></br></br>
+    <span class="title-word title-word-1">Loading</span>
+    <span class="title-word title-word-2">Univerxe</span>
+    <span class="title-word title-word-3">.</span>
+    <span class="title-word title-word-4">.</span>
+    <span class="title-word title-word-4">.</span>
+  </h2></p>
   
 </p>
 </div>
 
-
+<!-- Your main website content goes here -->
+<div id="main-content" style="display: none;">
+  <!-- Your website content goes here -->
+</div>
 
 <script>
   // Simulate loading time
   setTimeout(function() {
     document.getElementById('preloader').classList.add('hide');
     document.getElementById('main-content').style.display = 'block';
-  }, 4000); // Adjust the time as needed
+  }, 3000); // Adjust the time as needed
 </script>
 	
 	
@@ -2068,7 +2077,32 @@
     </style>
 </head>
 <body>
-   
+    <div class="loading wave"></div>
+    <script src="loader.js"></script>
+    <div class="loader-body done" id="loader">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="./univerxeloader.gif" width="180" height="105">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container3">
+            
+        </div>
+        <div class="loader"></div>
+    </div>
     <div id="__next">
         <div class="Theme_container__pOzov">
             <div class="Theme_mintInfoContainer__mjDxw">
